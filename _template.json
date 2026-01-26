@@ -10,31 +10,35 @@
 
   "plans": [
     {
-      "$comment": "Free tier - use when product has a free plan",
+      "$comment": "Free tier",
       "name": "Free",
-      "price": 0,
-      "billing": null,
-      "per": null
+      "price": 0
     },
     {
-      "$comment": "Paid plan with both monthly and yearly options",
-      "name": "Plan Name",
+      "$comment": "Paid plan with monthly and yearly options. price = actual amount billed (cost_per_term). price_per_month = monthly equivalent for comparison.",
+      "name": "Pro",
       "slug": "internal_plan_id",
       "monthly": {
-        "price": 100,
+        "price": 655,
         "per": "user"
       },
       "yearly": {
-        "price": 80,
-        "per": "user",
-        "note": "billed annually"
+        "price": 6540,
+        "price_per_month": 545,
+        "per": "user"
       }
     },
     {
       "$comment": "Flat-rate plan (not per-user)",
-      "name": "Team Plan",
+      "name": "Team",
       "monthly": {
         "price": 5000,
+        "per": "flat",
+        "includes": "up to 10 users"
+      },
+      "yearly": {
+        "price": 48000,
+        "price_per_month": 4000,
         "per": "flat",
         "includes": "up to 10 users"
       }
@@ -43,9 +47,7 @@
       "$comment": "Enterprise/custom pricing",
       "name": "Enterprise",
       "price": null,
-      "price_label": "Custom",
-      "billing": "annual",
-      "per": "user"
+      "price_label": "Custom"
     }
   ],
 
@@ -53,15 +55,15 @@
     "$comment": "Optional - include if region-specific discounts exist",
     "region_discount": {
       "percentage": 55,
-      "name": "discount_name",
       "applied": true
     }
   },
 
   "_meta": {
-    "$comment": "Field reference",
+    "$comment": "Field reference - remove this section in actual files",
     "per_values": ["user", "seat", "flat", "org", "workspace"],
-    "billing_values": ["monthly", "yearly", "annual", "quarterly", null],
-    "price_label_values": ["Custom", "Contact Sales", "Free"]
+    "price": "Actual amount billed for the term (cost_per_term)",
+    "price_per_month": "Monthly equivalent for yearly plans (cost_per_m)",
+    "price_label": "Use when price is null: Custom, Contact Sales, Free"
   }
 }

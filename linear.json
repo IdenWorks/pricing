@@ -1,0 +1,46 @@
+{
+  "product": "Linear",
+  "url": "https://linear.app/pricing",
+  "currency": "USD",
+  "country": "IN",
+  "updated_at": "2026-01-26",
+
+  "plans": [
+    {
+      "name": "Free",
+      "price": 0
+    },
+    {
+      "name": "Basic",
+      "slug": "basic",
+      "monthly": {
+        "price": 12,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 120,
+        "price_per_month": 10,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "monthly": {
+        "price": 18,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 192,
+        "price_per_month": 16,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Enterprise ",
+      "slug": "enterprise",
+      "price": null,
+      "price_label": "Custom"
+    }
+  ]
+}

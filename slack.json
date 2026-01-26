@@ -1,0 +1,55 @@
+{
+  "product": "Slack",
+  "url": "https://slack.com/pricing",
+  "currency": "INR",
+  "country": "IN",
+  "updated_at": "2026-01-24",
+  "plans": [
+    {
+      "name": "Free",
+      "price": 0,
+      "billing": null,
+      "per": null
+    },
+    {
+      "name": "Pro",
+      "slug": "standard",
+      "monthly": {
+        "price": 655,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 545,
+        "per": "user",
+        "note": "billed annually"
+      }
+    },
+    {
+      "name": "Business+",
+      "slug": "plus",
+      "monthly": {
+        "price": 1485,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 1238,
+        "per": "user",
+        "note": "billed annually"
+      }
+    },
+    {
+      "name": "Enterprise Grid",
+      "price": null,
+      "price_label": "Custom",
+      "billing": "annual",
+      "per": "user"
+    }
+  ],
+  "discounts": {
+    "india_local": {
+      "percentage": 55,
+      "name": "local_discount_rupee",
+      "applied": true
+    }
+  }
+}

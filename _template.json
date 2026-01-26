@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Template for SaaS pricing files. Copy this and fill in the values.",
+
+  "product": "Product Name",
+  "url": "https://example.com/pricing",
+  "currency": "INR",
+  "country": "IN",
+  "updated_at": "YYYY-MM-DD",
+
+  "plans": [
+    {
+      "$comment": "Free tier - use when product has a free plan",
+      "name": "Free",
+      "price": 0,
+      "billing": null,
+      "per": null
+    },
+    {
+      "$comment": "Paid plan with both monthly and yearly options",
+      "name": "Plan Name",
+      "slug": "internal_plan_id",
+      "monthly": {
+        "price": 100,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 80,
+        "per": "user",
+        "note": "billed annually"
+      }
+    },
+    {
+      "$comment": "Flat-rate plan (not per-user)",
+      "name": "Team Plan",
+      "monthly": {
+        "price": 5000,
+        "per": "flat",
+        "includes": "up to 10 users"
+      }
+    },
+    {
+      "$comment": "Enterprise/custom pricing",
+      "name": "Enterprise",
+      "price": null,
+      "price_label": "Custom",
+      "billing": "annual",
+      "per": "user"
+    }
+  ],
+
+  "discounts": {
+    "$comment": "Optional - include if region-specific discounts exist",
+    "region_discount": {
+      "percentage": 55,
+      "name": "discount_name",
+      "applied": true
+    }
+  },
+
+  "_meta": {
+    "$comment": "Field reference",
+    "per_values": ["user", "seat", "flat", "org", "workspace"],
+    "billing_values": ["monthly", "yearly", "annual", "quarterly", null],
+    "price_label_values": ["Custom", "Contact Sales", "Free"]
+  }
+}

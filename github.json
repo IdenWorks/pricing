@@ -1,0 +1,29 @@
+{
+  "country": "US",
+  "currency": "USD",
+  "plans": [
+    {
+      "name": "Free",
+      "price": 0
+    },
+    {
+      "monthly": {
+        "per": "user",
+        "price": 4
+      },
+      "name": "Team",
+      "slug": "team"
+    },
+    {
+      "monthly": {
+        "per": "user",
+        "price": 21
+      },
+      "name": "Enterprise",
+      "slug": "enterprise"
+    }
+  ],
+  "product": "GitHub",
+  "updated_at": "2026-02-01",
+  "url": "https://github.com/pricing"
+}

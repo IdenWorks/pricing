@@ -1,0 +1,48 @@
+{
+  "product": "Postman",
+  "url": "https://www.postman.com/pricing/",
+  "currency": "USD",
+  "country": "US",
+  "updated_at": "2026-02-02",
+  "plans": [
+    {
+      "name": "Free",
+      "price": 0
+    },
+    {
+      "name": "Basic",
+      "slug": "basic",
+      "monthly": {
+        "price": 19,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 168,
+        "price_per_month": 14,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Professional",
+      "slug": "professional",
+      "monthly": {
+        "price": 39,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 348,
+        "price_per_month": 29,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "yearly": {
+        "price": 0,
+        "price_per_month": 0,
+        "per": "user"
+      }
+    }
+  ]
+}

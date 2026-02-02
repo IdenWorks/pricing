@@ -14,12 +14,12 @@
       "name": "Pro",
       "slug": "standard",
       "monthly": {
-        "price": 655,
+        "price": 294.75,
         "per": "user"
       },
       "yearly": {
-        "price": 6540,
-        "price_per_month": 545,
+        "price": 2943,
+        "price_per_month": 245.25,
         "per": "user"
       }
     },
@@ -27,12 +27,12 @@
       "name": "Business+",
       "slug": "plus",
       "monthly": {
-        "price": 1485,
+        "price": 668.25,
         "per": "user"
       },
       "yearly": {
-        "price": 14856,
-        "price_per_month": 1238,
+        "price": 6685.2,
+        "price_per_month": 557.10,
         "per": "user"
       }
     },
@@ -43,11 +43,4 @@
       "price_label": "Custom"
     }
   ],
-
-  "discounts": {
-    "india_discount": {
-      "percentage": 55,
-      "applied": true
-    }
-  }
 }

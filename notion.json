@@ -1,0 +1,45 @@
+{
+  "product": "Notion",
+  "url": "https://www.notion.com/pricing",
+  "currency": "USD",
+  "country": "US",
+  "updated_at": "2026-02-02",
+  "plans": [
+    {
+      "name": "Free",
+      "price": 0
+    },
+    {
+      "name": "Plus",
+      "slug": "plus",
+      "monthly": {
+        "price": 12,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 120,
+        "price_per_month": 10,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "monthly": {
+        "price": 24,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 240,
+        "price_per_month": 20,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "price": null,
+      "price_label": "Custom"
+    }
+  ]
+}

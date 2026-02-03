@@ -1,0 +1,47 @@
+{
+  "product": "Zoom",
+  "url": "https://zoom.us/pricing",
+  "currency": "INR",
+  "country": "IN",
+  "updated_at": "2026-02-03",
+  "plans": [
+    {
+      "name": "Basic",
+      "slug": "basic",
+      "price": 0,
+      "price_label": "Free"
+    },
+    {
+      "name": "Pro",
+      "slug": "pro",
+      "monthly": {
+        "price": 1449,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 13764,
+        "price_per_month": 1147,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "monthly": {
+        "price": 1999,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 19992,
+        "price_per_month": 1666,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "price": null,
+      "price_label": "Custom"
+    }
+  ]
+}

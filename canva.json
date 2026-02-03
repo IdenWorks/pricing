@@ -1,0 +1,47 @@
+{
+  "product": "Canva",
+  "url": "https://www.canva.com/en_in/pricing/",
+  "currency": "INR",
+  "country": "IN",
+  "updated_at": "2026-02-03",
+  "plans": [
+    {
+      "name": "Free",
+      "slug": "free",
+      "price": 0,
+      "price_label": "Free"
+    },
+    {
+      "name": "Pro",
+      "slug": "pro",
+      "monthly": {
+        "price": 500,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 4000,
+        "price_per_month": 333.33,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Business",
+      "slug": "business",
+      "monthly": {
+        "price": 650,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 6500,
+        "price_per_month": 541.67,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Enterprise",
+      "slug": "enterprise",
+      "price": null,
+      "price_label": "Custom"
+    }
+  ]
+}

@@ -12,7 +12,7 @@ Each product has a single JSON file describing its public pricing.
 
 ## Repository Structure
 
-
+```
 ├── data/
 │ ├── github.json
 │ ├── linear.json
@@ -22,7 +22,7 @@ Each product has a single JSON file describing its public pricing.
 ├── README.md
 ├── CONTRIBUTING.md
 └── LICENSE
-
+```
 
 - `data/`  
   Contains one JSON file per product.  
@@ -52,6 +52,7 @@ Example:
   "updated_at": "2026-02-01",
   "plans": []
 }
+```
 
 ## Usage
 

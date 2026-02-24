@@ -1,0 +1,61 @@
+{
+  "product": "Dropbox",
+  "url": "https://www.dropbox.com/plans",
+  "currency": "USD",
+  "country": "US",
+  "updated_at": "2026-02-13",
+  "plans": [
+    {
+      "name": "Plus",
+      "slug": "plus",
+      "monthly": {
+        "price": 11.99,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 119.88,
+        "price_per_month": 9.99,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Professional",
+      "slug": "professional",
+      "monthly": {
+        "price": 19.99,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 198.96,
+        "price_per_month": 16.58,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Standard",
+      "slug": "standard",
+      "monthly": {
+        "price": 18,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 180,
+        "price_per_month": 15,
+        "per": "user"
+      }
+    },
+    {
+      "name": "Advanced",
+      "slug": "advanced",
+      "monthly": {
+        "price": 30,
+        "per": "user"
+      },
+      "yearly": {
+        "price": 288,
+        "price_per_month": 24,
+        "per": "user"
+      }
+    }
+  ]
+}

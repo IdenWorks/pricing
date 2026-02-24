@@ -1,7 +1,7 @@
 
 ---
 
-## 3️⃣ `CONTRIBUTING.md`
+## `CONTRIBUTING.md`
 
 ```md
 # Contributing

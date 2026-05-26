@@ -1,0 +1,41 @@
+{
+    "product": "Lovable",
+    "url": "https://lovable.dev/pricing",
+    "currency": "USD",
+    "country": "US",
+    "updated_at": "2026-05-26",
+    "plans": [
+      {
+        "name": "Free",
+        "price": 0
+      },
+      {
+        "name": "Pro",
+        "slug": "pro",
+        "monthly": {
+          "price": 25
+        },
+        "yearly": {
+          "price": 252,
+          "price_per_month": 21
+        }
+      },
+      {
+        "name": "Business",
+        "slug": "business",
+        "monthly": {
+          "price": 50
+        },
+        "yearly": {
+          "price": 504,
+          "price_per_month": 42
+        }
+      },
+      {
+        "name": "Enterprise",
+        "slug": "enterprise",
+        "price": null,
+        "price_label": "Custom"
+      }
+    ]
+  }
